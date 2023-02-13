@@ -58,7 +58,7 @@ app.post("/mypost", async (req, res) => {
     }
   }
 
-  details = {
+  let details = {
     firstname: req.body.firstname,
     lastname: req.body.lastname,
     result,
